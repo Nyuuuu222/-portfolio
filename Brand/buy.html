@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>이참외 과일 사과ss</title>
+  
+    <!-- Favicons -->
+   
+    <!-- Google Fonts -->
+  
+    <!-- Vendor CSS Files -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/icofont.min.css" rel="stylesheet">
+    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="css/venobox.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/zoomslider.css">
+  
+    <!-- Template Main CSS File -->
+    <link href="css/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+   
+
+
+* {
+  box-sizing: border-box;
+}
+.order_h2{
+    text-align: center;
+    margin: 50px 0;
+}
+.row1 {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container1 {
+  /* background-color: #f2f2f2; */
+  padding: 5px 20px 15px 20px;
+  /* border: 1px solid lightgrey; */
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn_ser {
+  display: block;
+  background-color: #fc9b46e3;
+  color: white;
+  padding: 12px;
+  margin: 10px auto !important;
+  border: none;
+  width: 76.4%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn_ser:hover {
+  background-color: #ff8115e3;
+  color: white;
+
+}
+.check_1{
+    margin-left: 12%;
+}
+
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row1 {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+    <div class="logo">
+        <a href="#" class="logo_main"><img src="img/200.png" alt="logo"></a>
+      </div>
+  
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-transparent">
+      <div class="container text-center">
+        <nav class="nav-menu d-none d-lg-block">
+          <ul class="text-center">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="season.html">Season</a></li>
+            <li class="active"><a href="Fruit_Market.html">Fruit Market</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header><!-- End Header -->
+     
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Fruit Market</h2>
+          <ol>
+            <li><a href="index.html" class="txt_sub">Home</a></li>
+            <li>Fruit Market</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+<!-- 구매 부트스트랩 -->
+    <h2 class="order_h2">주문/결제</h2>
+    <!-- <p>Resize the browser window to see the effect. When the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other.</p> -->
+    <div class="row1">
+    <div class="col-75">
+        <div class="container1">
+        <form action="Fruit_Market.html">
+        
+            <div class="row1">
+            <div class="col-50">
+                <h3>주문상품 정보</h3>
+                <label for="fname"><i class="fa fa-user"></i> 받는분 이름</label>
+                <input type="text" id="fname" name="firstname" placeholder="이름">
+                <label for="email"><i class="fa fa-envelope"></i> 받는분 이메일</label>
+                <input type="text" id="email" name="email" placeholder="이메일">
+                <label for="adr"><i class="fa fa-address-card-o"></i> 받는분 주소</label>
+                <input type="text" id="adr" name="address" placeholder="주소">
+                <label for="city"><i class="fa fa-institution"></i> 나머지 주소</label>
+                <input type="text" id="city" name="city" placeholder="나머지 주소">
+                <label for="city"><i class="fa fa-institution"></i> 배송 요청사항</label>
+                <input type="text" id="city" name="city" placeholder="내용을 입력해주세요.">
+                <label for="city"><i class="fa fa-institution"></i> 연락처</label>
+                <input type="text" id="city" name="city" placeholder="010-0000-0000">
+
+                <!-- <div class="row1">
+                    <div class="col-4">
+                        <label for="state">연락처</label>
+                        <input type="text" id="state" name="state" placeholder="010">
+                    </div>
+                    <div class="col-4">
+                        <label for="zip">　</label>
+                        <input type="text" id="zip" name="zip" placeholder="">
+                    </div>
+                    <div class="col-4">
+                        <label for="zip">　</label>
+                        <input type="text" id="zip" name="zip" placeholder="">
+                    </div>
+                    
+                </div> -->
+            </div>
+
+            <div class="col-50">
+                <h3>결제금액</h3>
+                <label for="fname">결제가능한 카드</label>
+                <div class="icon-container1">
+                <i class="fa fa-cc-visa" style="color:navy; font-size: 30px;"></i>
+                <i class="fa fa-cc-amex" style="color:blue; font-size: 30px; margin-left: 4px;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red; font-size: 30px; margin-left: 4px;"></i>
+                <i class="fa fa-cc-discover" style="color:orange; font-size: 30px; margin-left: 4px;"></i>
+                </div>
+                <label for="cname" style="margin-top: 8px;">카드 소유주 영문 이름</label>
+                <input type="text" id="cname" name="cardname" placeholder="Name">
+                <label for="ccnum">카드 번호</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">유효기간</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="01/01">
+
+            </div>
+            
+            </div>
+            <label class="check_1">
+            <input type="checkbox" checked="checked" name="sameadr"> 배송 안내 문자를 받습니다.
+            </label>
+            <input type="submit" value="결제" class="btn_ser">
+        </form>
+        </div>
+    </div>
+    <div class="col-25">
+        <div class="container1">
+        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+        <p><a href="#">파인애플 컷팅 도시락 (중)</a> <span class="price">4,500원</span></p>
+        <p><a href="#">배송비</a> <span class="price">+ 2,500원</span></p>
+        <!-- <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+        <p><a href="#">Product 4</a> <span class="price">$2</span></p> -->
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>7,000원</b></span></p>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+        <div class="footer-newsletter">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h4>이.과.사. 주간지 구독하기</h4>
+                <p>지금 바로 이.과.사.에서 제공되는 과일 관련 정보 주간지를 구독하세요!<br>다양한 정보와 할인 혜택을 제공합니다.</p>
+              </div>
+              <div class="col-lg-6">
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="button" value="Subscribe" class="often_click">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>이참외 과일 사과</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">회사명 : 이참외 과일 사과㈜</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">대표자 : 김은영</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">주소 : 경기도 김포시 마산동 672-3</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">이메일 : lolollll1025@gmail.com</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">사업자등록정보 : xxx-xx-xxxxx</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Different Projects</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://nyuuuu222.github.io/webd/realhome/home/modal.html">Team Project - PajuBookCity</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="https://nyuuuu222.github.io/webd/realcar/index.html">Hyundai Car</a></li>
+                  <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">aaa</a></li> -->
+                  <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">bbb</a></li> -->
+                  <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">ccc</a></li> -->
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <!-- <h4>Different Projects</h4> -->
+                <p>
+                  <!-- A108 Adam Street <br>
+                  New York, NY 535022<br>
+                  United States <br><br>
+                  <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <strong>Email:</strong> info@example.com<br> -->
+                </p>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-info">
+                <h3>Web Design Project</h3>
+                <p>Kim Eun Young</p>
+                <div class="social-links mt-3">
+                  <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <!-- <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Moderna</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div> -->
+      </footer><!-- End Footer -->
+    
+      <!-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
+
+    <!-- Vendor JS Files -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- <script src="js/php-email-form/validate.js"></script> -->
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/aos.js"></script>
+  
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+</body>
+</html>
